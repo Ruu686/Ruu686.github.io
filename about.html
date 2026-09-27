@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>关于我 - 介绍</title>
+    <style>
+        /* 设置整个页面的背景图 */
+        body {
+            margin: 0;
+            padding: 0;
+            /* 这里换成你想要的新背景图链接 */
+            background-image: url('https://s41.ax1x.com/2026/09/27/pn3434I.jpg');
+            background-size: cover;      /* 让图片铺满屏幕 */
+            background-position: center; /* 图片居中 */
+            background-attachment: fixed;/* 滚动时背景不动 */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white; /* 文字颜色设为白色，方便阅读 */
+        }
+
+        /* 给文章加一个半透明的黑色背景框，防止字看不清 */
+        .article-box {
+            max-width: 800px; /* 限制文章最大宽度，方便阅读 */
+            margin: 50px auto; /* 居中显示，上下留白 */
+            background-color: rgba(0, 0, 0, 0.7); /* 70%透明度的黑色背景 */
+            padding: 40px;
+            border-radius: 15px;
+            line-height: 1.8; /* 行高，让阅读更舒服 */
+            font-size: 18px;
+        }
+
+        h1 { text-align: center; font-size: 32px; }
+        p { text-indent: 2em; /* 段落首行缩进 */ margin-bottom: 20px; }
+
+        /* 返回首页的按钮 */
+        .back-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0366d6;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        .back-btn:hover { background-color: #024e9c; }
+    </style>
+</head>
+<body>
+
+    <div class="article-box">
+        <h1>关于我 / 我的学习之旅</h1>
+        
+        <p>大家好，我是 Ru. 欢迎来到我的个人网站！</p >
+        
+        <p>这里可以放长篇大论。比如，你可以写一段关于你为什么开始学习编程的故事。你可以写你是如何接触到 C 语言的，在写代码的过程中遇到了哪些困难（比如那个烦人的 scanf 报错），又是如何一步步克服它们的。</p >
+        
+        <p>这里分享你的学习目标。比如，你希望通过学习 C 语言打下坚实的计算机基础，未来打算向嵌入式开发、底层系统开发或者算法竞赛方向发展。</p >
+        
+        <p>你可以随意修改这段文字，写下属于你自己的介绍。</p >
+
+        <!-- 点击返回首页 -->
+        <a href=" " class="back-btn">← 返回首页</a >
+    </div>
+
+</body>
+</html>
